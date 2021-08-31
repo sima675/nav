@@ -44,14 +44,14 @@ export class FixbarComponent {
       name: '切换到 Side',
       url: '/side'
     },
-    {
-      name: '切换到 Shortcut',
-      url: '/shortcut'
-    },
-    {
-      name: '切换到 App',
-      url: '/app'
-    }
+    // {
+    //   name: '切换到 Shortcut',
+    //   url: '/shortcut'
+    // },
+    // {
+    //   name: '切换到 App',
+    //   url: '/app'
+    // }
   ]
 
   constructor(

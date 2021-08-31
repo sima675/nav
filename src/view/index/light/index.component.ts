@@ -1,5 +1,3 @@
-// Copyright @ 2018-2021 xiejiahe. All rights reserved. MIT license.
-// See https://github.com/xjh22222228/nav
 
 import { Component } from '@angular/core'
 import { Router, ActivatedRoute } from '@angular/router'

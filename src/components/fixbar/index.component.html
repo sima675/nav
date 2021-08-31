@@ -38,11 +38,6 @@
     </div>
   </span>
 
-  <span nz-tooltip nzTooltipTitle="新增数据">
-    <div class="wrapper dark-bg dark-border-color dark-action-hover" (click)="toggleModal()">
-      <i class="iconfont iconchuangjian"></i>
-    </div>
-  </span>
   
   <span *ngIf="showCollapse" nz-tooltip [nzTooltipTitle]="collapsed ? '展开' : '折叠'">
     <div class="wrapper dark-bg dark-border-color dark-action-hover" (click)="collapse()">

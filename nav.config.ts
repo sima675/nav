@@ -2,7 +2,8 @@ import { IConfig } from './src/types'
 
 const c: IConfig = {
   // [必填], 请填写您的仓库地址
-  gitRepoUrl: 'https://github.com/xjh22222228/nav',
+  // gitRepoUrl: 'https://github.com/xjh22222228/nav',
+  gitRepoUrl: 'https://www.baidu.com',
 
   // 部署分支
   branch: 'main',
@@ -29,10 +30,7 @@ const c: IConfig = {
   theme: 'Light',
 
   // 网站底部内容, 版权信息、备案号, 可以是 HTML
-  footerContent: `
-    <div style="font-weight: bold;">共收录\${total}个网站</div>
-    <div>Copyright © 2018-2021 nav3.cn, All Rights Reserved</div>
-  `,
+  footerContent: `我是有底线的`,
 
   // 阿里巴巴矢量图库 https://www.iconfont.cn/
   // 用在 Side 主题一级、二级菜单图标展示
@@ -50,7 +48,7 @@ const c: IConfig = {
   simThemeConfig: {
     // 海报图
     posterImageUrls: [
-      'https://raw.sevencdn.com/xjh22222228/nav/image/sim-wallpaper.jpg'
+      // 'https://raw.sevencdn.com/xjh22222228/nav/image/sim-wallpaper.jpg'
     ],
     description: '这里收录多达 <b>${total}</b> 个优质网站， 助您工作、学习和生活'
   }
